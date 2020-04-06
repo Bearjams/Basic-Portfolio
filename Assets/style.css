@@ -20,7 +20,9 @@ h1 {
     width: 20%;
     margin-left: 100px;
     display: inline-block;
+    text-align: center;
     }
+
 span{
     margin-left: 325px;
     color: #7777
@@ -38,6 +40,7 @@ span2{
 h2{
     color: #4aaaa5;
     border: 2px #dddddd ;
+    padding-left: 20px;
 }
 img{
     float: left;
@@ -51,7 +54,7 @@ p{
     display: block;
 }
 .container{
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
 }
 #main-bio,
@@ -62,12 +65,14 @@ p{
 #main-bio {
     width: 70%;
     border: 1px solid #dddddd;
-    padding-top: 30px;
+    margin-top: 30px;
+    position: relative;
 }
 #bio-image{
     margin-right: 20px;
     width: 200px;
     height: 200px;
+    
 }
 footer {
     position: fixed;
@@ -78,24 +83,134 @@ footer {
     color: white;
     text-align: center;
     border-top: 5px solid #4aaaa5;
+    
   }
 html{
-    background-color: #eeeeee#fff;
+    background-color: whitesmoke;
+    
 }  
 .column{
     float: left;
     width: 33.33%;
     padding: 5px;
+   
 }
 .row::after{
     content: "";
     clear: both;
     display: table;
-}
-.image{
-    position: relative;
-    text-align: center;
-    color: red;
-    background-color: #4aaaa5;
+   
 }
 
+/* .image{
+    position: relative;
+    text-align: center;
+    
+} */
+
+hr{
+    width: 95%;
+}
+#main-bio{
+    background-color: white;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    /* padding: 0px 12px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form{
+    padding-left: 20px;
+}
+
+#circuit{
+    left: 0;
+    bottom: 100%;
+    
+}
+.centered{
+    position: absolute;
+    left: 5px;
+    top: 170px;
+    width: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#tiger{
+    left: 0;
+    bottom: 100%;
+    
+   
+    
+}
+.right-center{
+    position: absolute;
+    left: 238px;
+    top: 170px;
+    width: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nightlife{
+    left: 0;
+    bottom: 100%;
+}
+.bottom-centered{
+    position: absolute;
+    left: 5px;
+    bottom: 180px;
+    width: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#lamps{
+    left: 0;
+    bottom: 100%;
+}
+.left-center{
+    position: absolute;
+    left: 238px;
+    bottom: 180px;
+    width: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#flowers{
+    left: 0;
+    bottom: 100%;
+}
+.bottom-center{
+    position: absolute;
+    left: 5px;
+    bottom: 15px;
+    width: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
