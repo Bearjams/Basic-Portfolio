@@ -6,31 +6,38 @@ body {
     font-size: 14px;
     line-height: 150%;
     
+    
+    
 }
 Header {
     border: 1px solid #cccccc;
     width: 960px;
+    padding-bottom: 0px;
+    padding-top: 0px
+    
 }
 h1 {
     color:#ffffff;
     background-color:#4aaaa5;
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 20%;
     margin-left: 100px;
     display: inline-block;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
     }
 
 span{
     margin-left: 325px;
     color: #7777
-    
 }
 span1{
     
     color: #7777
+    
 }
 span2{
     
@@ -45,7 +52,8 @@ h2{
 img{
     float: left;
     margin-right: 10px;
-    clear:both;
+    clear: both;
+
 }
 p{
     color: #7777;
@@ -53,9 +61,11 @@ p{
     overflow:auto;
     display: block;
 }
+
 .container{
     width: 960px;
     margin: 0 auto;
+    
 }
 #main-bio,
 #bio-image{
@@ -67,6 +77,9 @@ p{
     border: 1px solid #dddddd;
     margin-top: 30px;
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 #bio-image{
     margin-right: 20px;
@@ -82,11 +95,17 @@ footer {
     background-color: #666666;
     color: white;
     text-align: center;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
+    font-size: 8px;
+    height: 30px;
+   
+    
+   
     
   }
 html{
-    background-color: whitesmoke;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png);
+    
     
 }  
 .column{
@@ -119,17 +138,20 @@ hr{
     background-color: #4aaaa5;
     border: none;
     color: white;
-    /* padding: 0px 12px; */
+    padding: 0px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px;
+}
+h3{
+    
 }
 form{
     padding-left: 20px;
@@ -142,7 +164,7 @@ form{
 }
 .centered{
     position: absolute;
-    left: 5px;
+    left: 25px;
     top: 170px;
     width: 150px;
     color: white;
@@ -160,7 +182,7 @@ form{
 }
 .right-center{
     position: absolute;
-    left: 238px;
+    left: 258px;
     top: 170px;
     width: 150px;
     color: white;
@@ -175,7 +197,7 @@ form{
 }
 .bottom-centered{
     position: absolute;
-    left: 5px;
+    left: 25px;
     bottom: 180px;
     width: 150px;
     color: white;
@@ -190,7 +212,7 @@ form{
 }
 .left-center{
     position: absolute;
-    left: 238px;
+    left: 258px;
     bottom: 180px;
     width: 150px;
     color: white;
@@ -198,6 +220,7 @@ form{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 #flowers{
     left: 0;
@@ -205,7 +228,7 @@ form{
 }
 .bottom-center{
     position: absolute;
-    left: 5px;
+    left: 25px;
     bottom: 15px;
     width: 150px;
     color: white;
@@ -214,3 +237,36 @@ form{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+a{
+    color: #7777;
+    text-decoration: unset;
+}
+#meassage{
+    min-width: 22%;
+    height: 20%;
+}
+
+/* #foot{
+    color: white;
+    
+} */
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  left: 200px;
+  
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+} */
