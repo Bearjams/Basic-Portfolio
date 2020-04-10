@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>About Me</title>
+    <title>Contact</title>
     <link rel="Stylesheet" type="text/css" href="assets/style.css">
 
 </head>
@@ -16,6 +16,7 @@
            
             
         </Header>
+    <section id="background">
 
         <div class="container">
             
@@ -28,31 +29,41 @@
 
             <form>
             <section id="meassage">
+
                Name<br>
                
                <input style="width: 625px;"placeholder=" John Smith">
                 <br>
+
                Email<br>
                
                <input style="width: 625px;"placeholder=" example@gmail.com">
                 <br>
                 <section id="meassage">
+
                 Message<br>
-                
-                <input style="width: 625px;height: 150px;" rows="5" cols="25">
+
+                <textarea id="text" Rows="5" cols="25"></textarea>
+                <!-- <input style="width: 625px;height: 150px;" rows="5" cols="25"> -->
             </section>
             </form>
                 
            
         <div class="button">
-            <h3>
+            <div class="fx">
             
                 <input type="button" class="button" value="Submit" onclick="alert('Submitted')">
-                
-            </h3>
+            </div>   
+           
         </div>  
+    </section>
+   
         
-    <footer class="footer">Copyright&copy;</footer>
-       
+        <footer class="footer">
+          <div class="foot"> 
+            Copyright&copy;
+          </div> 
+        </footer>
+   
 </body>
 </html>

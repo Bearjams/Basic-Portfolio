@@ -11,11 +11,12 @@ body {
 }
 Header {
     border: 1px solid #cccccc;
-    width: 960px;
+    width: 100%;
     padding-bottom: 0px;
-    padding-top: 0px
-    
+    padding-top: 0px;
 }
+
+
 h1 {
     color:#ffffff;
     background-color:#4aaaa5;
@@ -31,16 +32,21 @@ h1 {
     }
 
 span{
-    margin-left: 325px;
+    margin-left: 400px;
+    padding-right: 5px;
     color: #7777
+    
+    
 }
 span1{
-    
+    border-left: solid 1px;
+    padding-left: 5px;
     color: #7777
     
 }
 span2{
-    
+    border-left: solid 1px;
+    padding-left: 5px;
     color: #7777
 }
 
@@ -67,11 +73,11 @@ p{
     margin: 0 auto;
     
 }
-#main-bio,
+/* #main-bio,
 #bio-image{
     float: left;
     margin-left: 100px;
-}
+} */
 #main-bio {
     width: 70%;
     border: 1px solid #dddddd;
@@ -79,12 +85,14 @@ p{
     position: relative;
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 100px;
     
 }
 #bio-image{
     margin-right: 20px;
     width: 200px;
     height: 200px;
+    padding-top: 50px;
     
 }
 footer {
@@ -97,17 +105,18 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     font-size: 8px;
-    height: 30px;
-   
-    
-   
-    
-  }
-html{
+    height: 45px;
+    text-align: bottom;
+}
+.foot{
+    padding-top: 25px;
+}
+
+#background{
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble.png);
-    
-    
-}  
+    padding-top: 20px;
+    padding-bottom: 700px;
+} 
 .column{
     float: left;
     width: 33.33%;
@@ -120,38 +129,33 @@ html{
     display: table;
    
 }
-
-/* .image{
-    position: relative;
-    text-align: center;
-    
-} */
-
 hr{
+    color: #7777;
     width: 95%;
+    margin-bottom: 15px;
 }
 #main-bio{
     background-color: white;
 }
 
 .button {
+    display: inline-block;
     background-color: #4aaaa5;
-    border: none;
+    border: solid 1px transparent;
+    border-radius: 3px;
     color: white;
     padding: 0px 12px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 12px;
-    margin: 4px 2px;
+    margin: 4px 2px 4px 0;
     cursor: pointer;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
 }
-h3{
-    
+.fx:hover{
+    background-color: thistle;
+}
+.fx:active{
+    background-color: white;
 }
 form{
     padding-left: 20px;
@@ -182,7 +186,7 @@ form{
 }
 .right-center{
     position: absolute;
-    left: 258px;
+    left: 259px;
     top: 170px;
     width: 150px;
     color: white;
@@ -212,7 +216,7 @@ form{
 }
 .left-center{
     position: absolute;
-    left: 258px;
+    left: 259px;
     bottom: 180px;
     width: 150px;
     color: white;
@@ -240,33 +244,27 @@ form{
 a{
     color: #7777;
     text-decoration: unset;
+    font-size: 12px;
+    
+}   
+#board{
+    border-right: solid 1px;
+
+}
+a:hover{
+    border: solid 1px;
+    border-color: violet;
+}
+a:active{
+    color: black;
 }
 #meassage{
     min-width: 22%;
     height: 20%;
 }
-
-/* #foot{
-    color: white;
-    
-} */
-
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: inline-block;
-  left: 200px;
-  
-
+#text{
+    width: 625px;
+    height: 150px;
+    border-color: #7777;
 }
 
-li {
-  float: right;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-} */
